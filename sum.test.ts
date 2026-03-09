@@ -9,6 +9,8 @@ declare global {
 }
 
 beforeAll(() => {
+  // Load the built script that attaches sum to window (non-module)
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   require("./sum.js");
 });
 
