@@ -1,5 +1,5 @@
 # 🧮 simple-cicd-typescript
-## LUCIANA HOYOS PÉREZ
+### LUCIANA HOYOS PÉREZ
 
 Este proyecto es una introducción práctica al desarrollo con **TypeScript**, pruebas automatizadas con **Jest**, análisis estático usando **ESLint**, y un flujo de **CI/CD** configurado con **GitHub Actions**.
 
