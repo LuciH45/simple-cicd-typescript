@@ -2,6 +2,7 @@
  * Unit tests for multiply()
  * Loads the compiled multiply.js so window.multiply is available (same as in the browser).
  */
+export {};
 declare global {
   interface Window {
     multiply: (a: number, b: number) => number;

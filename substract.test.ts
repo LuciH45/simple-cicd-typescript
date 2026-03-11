@@ -2,6 +2,7 @@
  * Unit tests for subtract()
  * Loads the compiled subtract.js so window.subtract is available (same as in the browser).
  */
+export {};
 declare global {
   interface Window {
     subtract: (a: number, b: number) => number;

@@ -2,6 +2,7 @@
  * Unit tests for divide()
  * Loads the compiled divide.js so window.divide is available (same as in the browser).
  */
+export {};
 declare global {
   interface Window {
     divide: (a: number, b: number) => number;

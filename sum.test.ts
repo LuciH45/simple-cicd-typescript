@@ -2,6 +2,8 @@
  * Unit tests for sum()
  * Loads the compiled sum.js so window.sum is available (same as in the browser).
  */
+export {};
+
 declare global {
   interface Window {
     sum: (a: number, b: number) => number;
