@@ -7,3 +7,4 @@ function subtract(a: number, b: number): number {
 
 // Expose to window so the HTML script can call it
 (window as unknown as { subtract: typeof subtract }).subtract = subtract;
+
