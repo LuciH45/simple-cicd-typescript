@@ -28,4 +28,3 @@ describe("sum", () => {
   });
 });
 
-export {};
